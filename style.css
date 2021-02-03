@@ -1,0 +1,27 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+#container-contador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#circulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #BADA55;
+    border-radius: 50%;
+}
+#btnReiniciar{
+    margin-top: 20px;
+}
